@@ -1,0 +1,9 @@
+.link-wrapper {
+	display: flex;
+	flex-direction: column;
+	gap: 20px;
+}
+.links {
+	text-decoration: none;
+	color: #777;
+}

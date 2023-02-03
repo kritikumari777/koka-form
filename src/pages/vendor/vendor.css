@@ -1,0 +1,46 @@
+.vendor-wrapper {
+	max-width: 1000px;
+	margin: 0 auto;
+}
+
+.vendor-title {
+	font-size: 30px;
+	font-weight: 700;
+	margin-bottom: 50px;
+	margin-top: 50px;
+}
+
+.seial-count-one-wrapper {
+}
+
+.serial-no {
+	color: #494848;
+	font-size: 20px;
+	margin: 20px 0;
+}
+.vendor-category-wrapper {
+	display: grid;
+	grid-template-columns: repeat(4, 1fr);
+	gap: 20px;
+}
+
+.vendor-category-name {
+	margin-bottom: 0;
+	background-color: #fff;
+	border: 1px solid #bab7b7;
+	color: gray;
+	font-size: 14px;
+	font-weight: 700;
+	padding: 8px 10px;
+	cursor: pointer;
+	transition: all 0.5s ease;
+}
+
+.vendor-category-name:hover {
+	background-color: gray;
+	color: #fff;
+}
+
+.seial-count-two-wrapper {
+	margin-top: 50px;
+}
